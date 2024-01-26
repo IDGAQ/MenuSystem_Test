@@ -33,14 +33,17 @@ public:
 
 	UFUNCTION(Exec)
 	virtual void LoadMainMenu() override;
-	
-	void RefreshServerList() override;
 
+	UFUNCTION(Exec)
+	void RefreshServerList() override;
+	
 	UFUNCTION(BlueprintCallable)
 	void LoadMenu();
 
 	UFUNCTION(BlueprintCallable)
 	void InGameLoadMenu();
+
+	
 
 private:
 	TSubclassOf<UUserWidget> MenuClass;
@@ -57,6 +60,7 @@ private:
 	void OnJoinSessionComplete(FName SessionName, EOnJoinSessionCompleteResult::Type Result);
 
 	void CreateSession();
+	
 
 	
 };
