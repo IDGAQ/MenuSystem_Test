@@ -96,6 +96,7 @@ void UPuzzlePlatformsGameInstance::OnJoinSessionComplete(FName SessionName, EOnJ
 	if (!ensure(PlayerController != nullptr)) return;
 	
 	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute, true);
+	
 }
 
 
