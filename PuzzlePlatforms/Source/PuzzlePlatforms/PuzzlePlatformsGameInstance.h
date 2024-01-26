@@ -32,6 +32,8 @@ public:
 
 	UFUNCTION(Exec)
 	virtual void LoadMainMenu() override;
+	
+	void RefreshServerList() override;
 
 	UFUNCTION(BlueprintCallable)
 	void LoadMenu();
