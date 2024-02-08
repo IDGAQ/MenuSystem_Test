@@ -8,6 +8,9 @@
 #include "Blueprint/UserWidget.h"
 #include "OnlineSubsystem.h"
 #include "OnlineSessionSettings.h"
+#include "Online/OnlineSessionNames.h"
+#include "OnlineSessionNames.h"
+
 
 #include "MenuSystem/MainMenu.h"
 #include "MenuSystem/MenuWidget.h"
